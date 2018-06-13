@@ -1,0 +1,7 @@
+GRANT ALL PRIVILEGES ON *.* to 'dbuser'@'%';
+
+CREATE DATABASE OSM_CALENDAR;
+
+CREATE USER 'dbu_calendar'@'%' IDENTIFIED BY 'school123';
+
+GRANT ALL PRIVILEGES ON OSM_CALENDAR.* TO 'dbu_calendar'@'%';

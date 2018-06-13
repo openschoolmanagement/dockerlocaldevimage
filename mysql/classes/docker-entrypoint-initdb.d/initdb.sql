@@ -1,0 +1,7 @@
+GRANT ALL PRIVILEGES ON *.* to 'dbuser'@'%';
+
+CREATE DATABASE OSM_CLASSES;
+
+CREATE USER 'dbu_classes'@'%' IDENTIFIED BY 'school123';
+
+GRANT ALL PRIVILEGES ON OSM_CLASSES.* TO 'dbu_classes'@'%';
