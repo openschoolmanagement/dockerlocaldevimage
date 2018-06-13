@@ -1,5 +1,10 @@
 # Docker Image for local development
 
+## Prerequistes
+1. Install Docker (https://docs.docker.com/install/#supported-platforms)
+2. Clone the Repo
+3. Run 'docker-compose' in Terminal or Command Line
+
 ## Used Backing Services
 
 1.  MySQL for the planned services Calendar, User, Contacts and Class Management
